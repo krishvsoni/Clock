@@ -77,6 +77,7 @@ mode.addEventListener('click',()=>{
     mode.style.background = '#fff'
     mode.style.fill = '#000'
     console.log("yello");
+    // button.style.border = '2px solid #fff'
 
     flag = 1    
 
