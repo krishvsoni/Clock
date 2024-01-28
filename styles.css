@@ -17,6 +17,9 @@ html body{
   align-items: center;
   /* min-height: 100vh; */
   height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  gap: 2rem;
   /* overflow: hidden; */
 }
 
@@ -192,16 +195,14 @@ html body{
 
 
 /* theme button  */
-/* 
-.btn{
-  padding: 20px;
-  position: absolute;
-  top: 35rem;
-  background-color: gray;
-  font-size: 1rem;
-  font-weight: 600;
-} */
 
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
 .btn {
   --width: 150px;
   --timing: 2s;
@@ -214,7 +215,7 @@ html body{
   background: rgb(0, 0, 0);
   transition: all 0.2s;
   cursor: pointer;
-  position: absolute;
+  /* position: absolute; */
   top: 35.3rem;
   border-width: 4px;
   border-style: solid;
@@ -256,7 +257,7 @@ html body{
 
 .mode{
   padding: 16px;
-  position: absolute;
+  /* position: absolute; */
   top: 35rem;
   left: 53rem;
   border-radius: 50%;
